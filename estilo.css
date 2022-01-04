@@ -221,47 +221,6 @@ h2 /*Subtitulo sem classe da caixa do banner*/
     border-bottom: 10px solid #7c5e99;
 }
 
-
-.skills /*barra de skil cinza a primeira*/
-{
-    width: 500px;
-    height: 20px;
-    padding: 5px;
-    background-color: #ccc;
-   /* display: flex;*/
-    margin-left: 320px;
-    color: white;
-       
-  }
-
- .skills.-html /*barra de skil verde a segunda*/
- {
-     width: 125px;
-     background-color: green;
-     margin-left: 317px;
-     margin-top: -265px;
-         
- }
-
-
-
- .skills.-css{
-    width: 250px;
-    background-color: green;
-    margin-left: -5px;
-    margin-top: -5px;
-    
-}
-
-
- .skills.-java{
-    width: 100px;
-    background-color: green;
-    margin-left: -5px;
-    margin-top: -5px;
-     
-}
-
 .titulo.-second /*classe de variacao do componente h1 que tem a classe title*/
 {
     color: white;
@@ -271,37 +230,63 @@ h2 /*Subtitulo sem classe da caixa do banner*/
     padding-bottom: 100px;
 }
 
-.titulo.-java
-{
-    text-shadow: none;
-     color: white;
-    margin-top: -50px; 
-}
 
-.titulo.-css
-{
+
+.skills {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap; /*quebra a linha*/
+    width: 100%;
+    gap: 30px;
     text-shadow: none;
-    text-align: right;
     color: white;
-    margin-top: -50px; 
-}
+    text-align: right;
+  }
 
-.titulo.-html 
-{
+  .skill /*fazendo modificacao do titulo h3*/
+  {
+    display: flex;
+    width: calc(50% - 15px);
+    gap: 15px;
     text-shadow: none;
-     color: white;
-    margin-top: -100px; 
-    margin-left: 317px;
-}
+    color: white;
+  }
+  
+  .skill span {
+    flex-grow: 1;
+  }
 
-.imgicon
-{
-   
-    margin-left: 250px;
-         
-}
+  .progcinza {
+    width: 300px;
+    height: 20px;
+    background-color: #CCC;
+  }
+  
+  .prog.-html {
+    width: 125px;
+    height: 20px;
+    background-color: green;
+  }
 
+  .prog.-css {
+    width: 250px;
+    height: 20px;
+    background-color: green;
+  }
 
+  .prog.-java {
+    width: 100px;
+    height: 20px;
+    background-color: green;
+  }
+  .skill .icon {
+    width: 50px;
+    height: 50px;
+    margin-left: 100px;
+    margin-top: 50px;
+  }
 
 /*fim das configuracoes do skills */
 
