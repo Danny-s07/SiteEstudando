@@ -243,6 +243,8 @@ h2 /*Subtitulo sem classe da caixa do banner*/
     text-shadow: none;
     color: white;
     text-align: right;
+    /*flex-direction: column; - deixa todo mundo numa mesma coluna um em baixo do outro*/
+    
   }
 
   .skill /*fazendo modificacao do titulo h3*/
@@ -262,6 +264,7 @@ h2 /*Subtitulo sem classe da caixa do banner*/
     width: 300px;
     height: 20px;
     background-color: #CCC;
+    
   }
   
   .prog.-html {
@@ -281,6 +284,20 @@ h2 /*Subtitulo sem classe da caixa do banner*/
     height: 20px;
     background-color: green;
   }
+
+  .prog.-windows {
+    width: 135px;
+    height: 20px;
+    background-color: green;
+  }
+
+  .prog.-linux {
+    width: 40px;
+    height: 20px;
+    background-color: green;
+  }
+
+
   .skill .icon {
     width: 50px;
     height: 50px;
