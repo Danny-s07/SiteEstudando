@@ -79,7 +79,7 @@ a.linkmenu:link, a.linkmenu:visited /*configuracoes do menu - utilizado nas pag 
     display: inline-block;
     width: 150px;
     height: 50px;
-    background-color: chocolate;
+    background-color: #9400D3;
     line-height: 50px;
     border-radius: 15px;
     margin-top: -9px;
@@ -101,7 +101,7 @@ a.bt:hover, a.bt:active
     color: black;
     border-radius: 700px;
     border: dashed;
-    background-color: chartreuse;   
+    background-color: #BA55D3;   
 }
 
 
@@ -142,12 +142,12 @@ a.bt:hover, a.bt:active
     height: 807px;
     left: 80px;
     top: 80px;
-    margin-top: 30px;
-   /*background-color: blueviolet;*/
+    /*background-color: blueviolet;*/
     background-image: url(imagens/default.jfif);
     background-repeat: no-repeat;
     background-size: 100%;
     border-bottom: 10px solid black;
+    border-top: 10px solid black;
     padding-top: 115px;
     padding-left: 90px;
     
@@ -176,7 +176,7 @@ a.bt:hover, a.bt:active
 .titulo
 {
     font-size: 20px;
-    color: chocolate;
+    color: #9370DB;
     text-shadow: 4px 4px 0px black;
     
 }
@@ -214,11 +214,13 @@ h2 /*Subtitulo sem classe da caixa do banner*/
 #planoskills
 {
     width: 100%;
-    height: 740px;
+    height: 600px;
     left: 80px;
     top: 887px;
     background-color: coral;
     border-bottom: 10px solid #7c5e99;
+    border-top: 10px solid #7c5e99;
+    
 }
 
 .titulo.-second /*classe de variacao do componente h1 que tem a classe title*/
@@ -226,8 +228,8 @@ h2 /*Subtitulo sem classe da caixa do banner*/
     color: white;
     text-shadow: none;
     text-align: center;
-    padding-top: 50px;
-    padding-bottom: 100px;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 
@@ -329,7 +331,7 @@ h2 /*Subtitulo sem classe da caixa do banner*/
    width: 200px;
    height: 200px;
    margin-left: 490px;
-   margin-top: -80px;
+   margin-top: 60px;
    background-color: turquoise;
    box-shadow: 10px 10px 0 black;
 
