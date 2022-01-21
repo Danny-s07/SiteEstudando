@@ -320,7 +320,7 @@ h2 /*Subtitulo sem classe da caixa do banner*/
     left: 80px;
     padding-top: 10px;
     /*top: 1617px;*/
-    background-color: #4b0e5a;
+    background-color: #692c79 ;
 
 }
 
@@ -331,7 +331,7 @@ h2 /*Subtitulo sem classe da caixa do banner*/
    height: 200px;
    margin-left: 490px;
    margin-top: 70px;
-   /*background-color: turquoise;*/
+   background-color: #4b0e5a;
    box-shadow: 10px 10px 0 black;
 
 }
@@ -343,7 +343,7 @@ h2 /*Subtitulo sem classe da caixa do banner*/
    float: left;
    margin-left: 100px;
    margin-top: -190px;
-   /*background-color: turquoise;*/
+   background-color: #4b0e5a;
    box-shadow: 10px 10px 0 black;
 
 }
@@ -355,7 +355,7 @@ h2 /*Subtitulo sem classe da caixa do banner*/
    float: right;
    margin-top: -190px;
    margin-right: 100px;
-   /*background-color: turquoise;*/
+   background-color: #4b0e5a;
    box-shadow: 10px 10px 0 black;
 
 }
