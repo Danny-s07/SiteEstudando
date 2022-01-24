@@ -325,7 +325,7 @@ h2 /*Subtitulo sem classe da caixa do banner*/
 }
 
 /*quadrados da sessao projetos*/
-#projetoqd1
+.projetoqd1
 {
     width: 200px;
    height: 200px;
@@ -336,26 +336,26 @@ h2 /*Subtitulo sem classe da caixa do banner*/
 
 }
 
-#projetoqd2
+.projetoqd2
 {
    width: 200px;
    height: 200px;
    float: left;
    margin-left: 100px;
    margin-top: -190px;
-   background-color: #4b0e5a;
+   background-color: white;
    box-shadow: 10px 10px 0 black;
 
 }
 
-#projetoqd3
+.projetoqd3
 {
    width: 200px;
    height: 200px;
    float: right;
    margin-top: -190px;
    margin-right: 100px;
-   background-color: #4b0e5a;
+   /*background-color: #4b0e5a;*/
    box-shadow: 10px 10px 0 black;
 
 }
