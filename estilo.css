@@ -328,6 +328,13 @@ h2 /*Subtitulo sem classe da caixa do banner*/
 /*quadrados da sessao projetos*/
 
 
+.container-projetos{
+     display: flex;
+     justify-content: space-evenly; /*espaçamento uniforme lateral entre os elementos*/
+     padding-top: 70px;/*dando espaçamento entre o titulo e top */
+}
+
+
 .projetoqd /*coloquei todos os comportamentos repetidos na classe pai*/
 {
     width: 200px;
@@ -338,8 +345,8 @@ h2 /*Subtitulo sem classe da caixa do banner*/
 .projetoqd.-um /*coloquei todos os comportamentos individuais dos filhos e pegou o comparto do pai*/
 {
 
-   margin-left: 490px;
-   margin-top: 70px;
+   /*margin-left: 490px;*/
+   margin-top: 10px;
    background-color: #4b0e5a;
    
 
@@ -347,9 +354,9 @@ h2 /*Subtitulo sem classe da caixa do banner*/
 
 .projetoqd.-dois /*coloquei todos os comportamentos individuais dos filhos e pegou o comparto do pai*/
 {
-   float: left;
-   margin-left: 100px;
-   margin-top: -190px;  
+   /*float: left;
+   margin-left: 100px;*/ 
+   margin-top: 6px; 
    background-color: white;
    
 
@@ -357,10 +364,10 @@ h2 /*Subtitulo sem classe da caixa do banner*/
 
 .projetoqd.-tres /*coloquei todos os comportamentos individuais dos filhos e pegou o comparto do pai*/
 {
-    float: right;
-    margin-top: -190px; 
-    margin-right: 100px;
-   /*background-color: #4b0e5a;*/
+   /*float: right;
+    margin-right: 100px;*/
+    margin-top: 6px; 
+  /* background-color: #4b0e5a;*/
 
 }
 /* fim da sessao projetos*/
