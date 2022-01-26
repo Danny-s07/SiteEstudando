@@ -332,14 +332,19 @@ h2 /*Subtitulo sem classe da caixa do banner*/
      display: flex;
      justify-content: space-evenly; /*espaçamento uniforme lateral entre os elementos*/
      padding-top: 70px;/*dando espaçamento entre o titulo e top */
+     
 }
 
-
+.icon
+{
+    border-radius: 20px;
+}
 .projetoqd /*coloquei todos os comportamentos repetidos na classe pai*/
 {
     width: 200px;
     height: 200px;
     box-shadow: 10px 10px 0 black;
+    border-radius: 20px;
     
 }
 .projetoqd.-um /*coloquei todos os comportamentos individuais dos filhos e pegou o comparto do pai*/
@@ -348,6 +353,7 @@ h2 /*Subtitulo sem classe da caixa do banner*/
    /*margin-left: 490px;*/
    margin-top: 10px;
    background-color: #4b0e5a;
+   
    
 
 }
@@ -359,6 +365,7 @@ h2 /*Subtitulo sem classe da caixa do banner*/
    margin-top: 6px; 
    background-color: white;
    
+   
 
 }
 
@@ -368,6 +375,7 @@ h2 /*Subtitulo sem classe da caixa do banner*/
     margin-right: 100px;*/
     margin-top: 6px; 
   /* background-color: #4b0e5a;*/
+ 
 
 }
 /* fim da sessao projetos*/
