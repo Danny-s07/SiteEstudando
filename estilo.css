@@ -383,7 +383,7 @@ h2 /*Subtitulo sem classe da caixa do banner*/
 #sobre
 {
     width: 100%;
-   /* height: auto;  793px*/
+    height: 593px;
     left: 80px;
     padding-top: 10px;
     /*top: 2157px;*/
@@ -391,6 +391,38 @@ h2 /*Subtitulo sem classe da caixa do banner*/
     
 
 }
+
+ /*Inicio Carrossel da sessao sobre*/
+    .galeria
+    {
+        width: 674px;
+        height: 231px;
+        overflow: hidden;
+        margin-left: 250px;
+    }
+
+    .galeria .fotos
+    {
+        width: 500%;
+        animation-name: animacao;
+        animation-duration: 20s;
+        animation-iteration-count: infinite;
+    }
+
+    @keyframes animacao {
+        0% { margin-left: 0; }
+        20% { margin-left: 0; }
+        25% { margin-left: -100%; }
+        45% { margin-left: -100%; }
+        50% { margin-left: -200%; }
+        70% { margin-left: -200%; }
+        75% { margin-left: -300%; }
+        95% { margin-left: -300%; }
+        100% { margin-left: -400%; }
+    }
+    
+/*Final Carrossel da sessao sobre*/
+
 
 /* fim da sessao sobre*/
 
@@ -469,3 +501,5 @@ h2 /*Subtitulo sem classe da caixa do banner*/
       background-color: darkmagenta;
   }
   
+
+ 
