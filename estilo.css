@@ -215,10 +215,11 @@ h2 /*Subtitulo sem classe da caixa do banner*/
     width: 100%;
     height: 600px;
     left: 80px;
-    top: 887px;
+    padding-top: 10px;
+    /*top: 887px;*/
     background-color: #3b1063;
     border-bottom: 10px solid #7c5e99;
-    border-top: 10px solid #7c5e99;
+    
     
 }
 
@@ -388,8 +389,7 @@ h2 /*Subtitulo sem classe da caixa do banner*/
     padding-top: 10px;
     /*top: 2157px;*/
     background-color: #BA55D3;
-    
-
+    border-top: 10px solid black;
 }
 
  /*Inicio Carrossel da sessao sobre*/
@@ -423,6 +423,10 @@ h2 /*Subtitulo sem classe da caixa do banner*/
     
 /*Final Carrossel da sessao sobre*/
 
+.psobre
+{
+    margin-left: 30px;
+}
 
 /* fim da sessao sobre*/
 
