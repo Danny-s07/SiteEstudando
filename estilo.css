@@ -321,7 +321,7 @@ h2 /*Subtitulo sem classe da caixa do banner*/
     padding-top: 10px;
     /*top: 1617px;*/
     background-color: #692c79 ;
-
+    border-bottom: 10px solid #923ba8;
 }
 
 
@@ -389,7 +389,7 @@ h2 /*Subtitulo sem classe da caixa do banner*/
     padding-top: 10px;
     /*top: 2157px;*/
     background-color: #BA55D3;
-    border-top: 10px solid black;
+    border-bottom: 10px solid black;
 }
 
  /*Inicio Carrossel da sessao sobre*/
