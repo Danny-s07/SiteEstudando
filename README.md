@@ -1,6 +1,6 @@
 # SiteEstudando
-
 ![Badge Concluido](http://img.shields.io/static/v1?label=STATUS&message=%20CONCLUIDO&color=GREEN&style=for-the-badge)
+<br>
  :computer: Estudando de HTML e CSS
  
  Site feito a partir de estudo na estrutura simples de HTML e CSSS, dividido em sessões com menu ancora 
