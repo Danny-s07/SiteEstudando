@@ -1,6 +1,7 @@
 
 <p align="center">
-SiteEstudando
+<h1>SiteEstudando<h1>
+ <br>
 <img src="http://img.shields.io/static/v1?label=STATUS&message=%20CONCLUIDO&color=GREEN&style=for-the-badge"/>
 </p>
 
